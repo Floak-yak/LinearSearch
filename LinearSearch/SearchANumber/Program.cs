@@ -13,6 +13,11 @@ public class Algorithms
 {
     public bool LinearSearch(int[] numbers, int targetValue)
     {
+        if(numbers is null)
+        {
+            throw new ArgumentNullException("numbers is null");
+        }
+        
         foreach (int number in numbers)
         {
             if (number == targetValue)
