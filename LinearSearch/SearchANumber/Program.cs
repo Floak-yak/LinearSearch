@@ -7,7 +7,7 @@ bool r1 = alg.LinearSearch(dataArray, 5); // Kết quả: True
 bool r2 = alg.LinearSearch(dataArray, 8); // Kết quả: False
 
 Console.WriteLine($"TargetValue: 5. Found: {r1}");
-Console.WriteLine($"TargetValue: 5. Found: {r2}");
+Console.WriteLine($"TargetValue: 8. Found: {r2}");
 
 public class Algorithms
 {
